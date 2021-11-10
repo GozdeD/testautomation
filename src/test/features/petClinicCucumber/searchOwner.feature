@@ -1,4 +1,4 @@
-Feature: Test Searching Owner and add if it is not existing
+Feature: Test Searching Owner 
 
 	Background: To Launch the web site
 		Given Launch the web site
