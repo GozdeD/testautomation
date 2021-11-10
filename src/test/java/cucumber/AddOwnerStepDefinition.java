@@ -45,6 +45,12 @@ public class AddOwnerStepDefinition {
 
 		List<Map<String, String>> rows = table.asMaps(String.class, String.class);
 
+		/*[
+		    {"box": "firstName", "data": "Gözde"},
+		    {"box": "lastName", "data": "Dereli"},
+		    {"box": "address", "data": "Maltepe"}...
+		]*/
+		
 		for (Map<String, String> columns : rows) {
 			driver.findElement(By.id(columns.get("box"))).sendKeys(columns.get("data"));
 		}
