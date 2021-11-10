@@ -5,7 +5,7 @@
     <classes>
       <class name="cucumber.PetClinicCucumberTest">
         <methods>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="runScenario" invocation-numbers="1"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>
